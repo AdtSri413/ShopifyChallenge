@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Spinner?>
+
+<VBox prefHeight="1000.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" stylesheets="@application.css" fx:controller="application.FastenerController" >
+   <children>
+      <AnchorPane prefHeight="1000.0" prefWidth="1300.0">
+         <children>
+         	<ImageView fx:id="imageView1" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox1" />
+            
+            <ImageView fx:id="imageView2" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox2" />
+            
+            <ImageView fx:id="imageView3" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox3" />
+            
+            <ImageView fx:id="imageView4" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox4" />
+            
+            <ImageView fx:id="imageView5" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox5" />
+            
+            <ImageView fx:id="imageView6" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox6" />
+            
+            <ImageView fx:id="imageView7" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox7" />
+            
+            <ImageView fx:id="imageView8" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox8" />
+            
+            <ImageView fx:id="imageView9" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox9" />
+            
+            <ImageView fx:id="imageView10" pickOnBounds="true" preserveRatio="true" />
+            <HBox fx:id="HBox10" />
+            
+            <Label layoutX="500.0" layoutY="30.0" prefHeight="80.0" prefWidth="300.0" text="Order Some Fasteners!" >
+            	<font>
+                  <Font size="30.0" />
+               </font>
+              </Label>
+            <TextField fx:id="search" layoutX="1000.0" layoutY="50.0" promptText="search..."/>
+            <Spinner fx:id="amount" layoutX="50.0" layoutY="900.0" promptText="How Many? (Default = 1)"/>
+            <TextField fx:id="priceOfProduct" layoutX="250.0" layoutY="900.0" promptText="Price of Product"/>
+            <TextField fx:id="totalCost" layoutX="1000.0" layoutY="900.0" promptText="total Cost"/>
+            <TextArea fx:id="productInfo" layoutX="50.0" layoutY="650.0" prefHeight="225.0" prefWidth="575.0" />
+            <Button fx:id="addToCart" layoutX="500.0" layoutY="880.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Add to Cart" />
+            <Button fx:id="checkout" layoutX="700.0" layoutY="880.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="100.0" text="Checkout" />
+            <TextArea fx:id="receipt" layoutX="675.0" layoutY="650.0" prefHeight="225.0" prefWidth="575.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
