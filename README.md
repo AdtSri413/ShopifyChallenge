@@ -1,2 +1,2 @@
 # ShopifyChallenge
-This is my Technical Submission for the Backend Developer Intern Position at Shopify
+This is my Technical Submission for the Backend Developer Intern Position at Shopify (Jan 2021)
